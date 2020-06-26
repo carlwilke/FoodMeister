@@ -7,3 +7,12 @@ D:\RepoLearn\FoodMeister.Core\obj\Debug\netcoreapp3.1\FoodMeister.Core.AssemblyI
 D:\RepoLearn\FoodMeister.Core\obj\Debug\netcoreapp3.1\FoodMeister.Core.csproj.CoreCompileInputs.cache
 D:\RepoLearn\FoodMeister.Core\obj\Debug\netcoreapp3.1\FoodMeister.Core.dll
 D:\RepoLearn\FoodMeister.Core\obj\Debug\netcoreapp3.1\FoodMeister.Core.pdb
+D:\RepoLearn\FoodMeister\FoodMeister.Core\bin\Debug\netcoreapp3.1\FoodMeister.Core.deps.json
+D:\RepoLearn\FoodMeister\FoodMeister.Core\bin\Debug\netcoreapp3.1\FoodMeister.Core.dll
+D:\RepoLearn\FoodMeister\FoodMeister.Core\bin\Debug\netcoreapp3.1\FoodMeister.Core.pdb
+D:\RepoLearn\FoodMeister\FoodMeister.Core\obj\Debug\netcoreapp3.1\FoodMeister.Core.csprojAssemblyReference.cache
+D:\RepoLearn\FoodMeister\FoodMeister.Core\obj\Debug\netcoreapp3.1\FoodMeister.Core.AssemblyInfoInputs.cache
+D:\RepoLearn\FoodMeister\FoodMeister.Core\obj\Debug\netcoreapp3.1\FoodMeister.Core.AssemblyInfo.cs
+D:\RepoLearn\FoodMeister\FoodMeister.Core\obj\Debug\netcoreapp3.1\FoodMeister.Core.csproj.CoreCompileInputs.cache
+D:\RepoLearn\FoodMeister\FoodMeister.Core\obj\Debug\netcoreapp3.1\FoodMeister.Core.dll
+D:\RepoLearn\FoodMeister\FoodMeister.Core\obj\Debug\netcoreapp3.1\FoodMeister.Core.pdb

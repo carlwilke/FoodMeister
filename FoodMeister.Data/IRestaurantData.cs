@@ -9,6 +9,7 @@ namespace FoodMeister.Data
     public interface IRestaurantData
     {
         IEnumerable<Restaurants> GetRestaurantsByName(string name);
+        Restaurants GetById(int id);
     }
 
     public class InMemoryRestaurantData : IRestaurantData
@@ -25,13 +26,18 @@ namespace FoodMeister.Data
                 new Restaurants { Id = 5, Name = "Pedros Fiesta", Location = "Alcapulco", Cuisine = CuisineType.Mexican }
             };
         }
-   
+
         public IEnumerable<Restaurants> GetRestaurantsByName(string name)
         {
             return from r in restaurants
-                where string.IsNullOrEmpty(name) || r.Name.StartsWith(name)
-                orderby r.Name
-                select r;
+                   where string.IsNullOrEmpty(name) || r.Name.StartsWith(name)
+                   orderby r.Name
+                   select r;
+        }
+
+        public Restaurants GetById(int id)
+        {
+            return restaurants.SingleOrDefault(r => r.Id == id);
         }
     }
 }
