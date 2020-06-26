@@ -1,0 +1,27 @@
+﻿@page
+@model FoodMeister.Pages.Restaurants.ListModel
+@{
+}
+
+<h1>Restaurants</h1>
+
+<form method="get">
+    <div class="form-group">
+        <input type="search" class="form-control" value="" name="searchTerm" />
+        <button class="btn btn-dark">
+            <i class="fa fa-cog"></i>
+
+        </button>
+    </div>
+</form>
+
+<table class="table">
+    @foreach (var restaurant in Model.Restaurantes)
+    {
+        <tr>
+            <td>@restaurant.Name</td>
+            <td>@restaurant.Location</td>
+            <td>@restaurant.Cuisine</td>
+        </tr>
+    }
+</table>

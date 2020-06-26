@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "EItuMELlxDb82mZMDKZSor1G1NmjJu5yoTDgmeO8UIpehLHiDqgJQv2/R4zz9w42OGE5t0DOM38lgzOp38u7Iw==",
+  "success": true,
+  "projectFilePath": "D:\\RepoLearn\\FoodMeister\\FoodMeister\\FoodMeister.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carlw\\.nuget\\packages\\bootstrap\\4.0.0\\bootstrap.4.0.0.nupkg.sha512",
+    "C:\\Users\\carlw\\.nuget\\packages\\jquery\\3.0.0\\jquery.3.0.0.nupkg.sha512",
+    "C:\\Users\\carlw\\.nuget\\packages\\popper.js\\1.12.9\\popper.js.1.12.9.nupkg.sha512"
+  ],
+  "logs": []
+}

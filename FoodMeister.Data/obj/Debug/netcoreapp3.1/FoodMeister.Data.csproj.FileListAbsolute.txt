@@ -1,0 +1,12 @@
+D:\RepoLearn\FoodMeister.Data\bin\Debug\netcoreapp3.1\FoodMeister.Data.deps.json
+D:\RepoLearn\FoodMeister.Data\bin\Debug\netcoreapp3.1\FoodMeister.Data.dll
+D:\RepoLearn\FoodMeister.Data\bin\Debug\netcoreapp3.1\FoodMeister.Data.pdb
+D:\RepoLearn\FoodMeister.Data\bin\Debug\netcoreapp3.1\FoodMeister.Core.dll
+D:\RepoLearn\FoodMeister.Data\bin\Debug\netcoreapp3.1\FoodMeister.Core.pdb
+D:\RepoLearn\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.csprojAssemblyReference.cache
+D:\RepoLearn\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.AssemblyInfoInputs.cache
+D:\RepoLearn\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.AssemblyInfo.cs
+D:\RepoLearn\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.csproj.CoreCompileInputs.cache
+D:\RepoLearn\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.csproj.CopyComplete
+D:\RepoLearn\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.dll
+D:\RepoLearn\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.pdb
