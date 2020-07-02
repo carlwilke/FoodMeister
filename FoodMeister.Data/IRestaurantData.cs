@@ -10,6 +10,8 @@ namespace FoodMeister.Data
     {
         IEnumerable<Restaurants> GetRestaurantsByName(string name);
         Restaurants GetById(int id);
+        Restaurants Update(Restaurants updatedRestaurants);
+        int Commit();
     }
 
     public class InMemoryRestaurantData : IRestaurantData
@@ -38,6 +40,26 @@ namespace FoodMeister.Data
         public Restaurants GetById(int id)
         {
             return restaurants.SingleOrDefault(r => r.Id == id);
+        }
+
+        // Used for local testing before connecting to database
+        public Restaurants Update(Restaurants updatedRestaurants)
+        {
+            var restaurant = restaurants.SingleOrDefault(r => r.Id == updatedRestaurants.Id);
+            if (restaurant != null)
+            {
+                restaurant.Name = updatedRestaurants.Name;
+                restaurant.Location = updatedRestaurants.Location;
+                restaurant.Cuisine = updatedRestaurants.Cuisine;
+            }
+
+            return restaurant;
+        }
+
+        public int Commit()
+        {
+            // Placeholder for the database commit
+            return 0;
         }
     }
 }

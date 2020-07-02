@@ -158,3 +158,5 @@ D:\RepoLearn\FoodMeister\FoodMeister\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.C
 D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\FoodMeister.csproj.CoreCompileInputs.cache
 D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\FoodMeister.MvcApplicationPartsAssemblyInfo.cache
 D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Detail.cshtml.g.cs
+D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\NotFound.cshtml.g.cs
+D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Edit.cshtml.g.cs

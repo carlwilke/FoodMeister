@@ -1,0 +1,30 @@
+﻿@page "{restaurantId:int}"
+@using FoodMeister.Core
+@model FoodMeister.Pages.Restaurants.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Editing @Model.Restaurants.Name</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="Restaurants.Id" />
+    <div class="form-group">
+        <label asp-for="Restaurants.Name"></label>
+        <input asp-for="Restaurants.Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Restaurants.Location"></label>
+        <input asp-for="Restaurants.Location" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Restaurants.Cuisine"></label>
+        <select class="form-control" asp-for="Restaurants.Cuisine"
+                asp-items="Model.Cuisines">
+
+        </select>
+
+    </div>
+
+    <button type="submit" class="fa fa-primary">Save</button>
+</form>
