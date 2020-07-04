@@ -12,6 +12,8 @@ namespace FoodMeister.Pages.Restaurants
     {
         private readonly IRestaurantData restaurantData;
         public Core.Restaurants Restaurants { get; set; }
+        [TempData]
+        public string Message { get; set; }
 
 
         public DetailModel(IRestaurantData restaurantData)

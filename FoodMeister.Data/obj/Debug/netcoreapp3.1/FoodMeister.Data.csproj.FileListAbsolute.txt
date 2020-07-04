@@ -18,7 +18,6 @@ D:\RepoLearn\FoodMeister\FoodMeister.Data\bin\Debug\netcoreapp3.1\FoodMeister.Co
 D:\RepoLearn\FoodMeister\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.csprojAssemblyReference.cache
 D:\RepoLearn\FoodMeister\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.AssemblyInfoInputs.cache
 D:\RepoLearn\FoodMeister\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.AssemblyInfo.cs
-D:\RepoLearn\FoodMeister\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.csproj.CoreCompileInputs.cache
 D:\RepoLearn\FoodMeister\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.csproj.CopyComplete
 D:\RepoLearn\FoodMeister\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.dll
 D:\RepoLearn\FoodMeister\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.pdb

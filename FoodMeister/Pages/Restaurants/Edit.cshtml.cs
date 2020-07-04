@@ -26,10 +26,17 @@ namespace FoodMeister.Pages.Restaurants
             _htmlHelper = htmlHelper;
         }
 
-        public IActionResult OnGet(int restaurantId)
+        public IActionResult OnGet(int? restaurantId)
         {
             Cuisines = _htmlHelper.GetEnumSelectList<CuisineType>();
-            Restaurants = _restaurantData.GetById(restaurantId);
+            if (restaurantId.HasValue)
+            {
+                Restaurants = _restaurantData.GetById(restaurantId.Value);
+            }
+            else
+            {
+                Restaurants = new Core.Restaurants();
+            }
             if (Restaurants == null)
             {
                 return RedirectToPage("./NotFound");
@@ -40,9 +47,27 @@ namespace FoodMeister.Pages.Restaurants
 
         public IActionResult OnPost()
         {
-            Restaurants = _restaurantData.Update(Restaurants);
+            if (!ModelState.IsValid)
+            {
+                Cuisines = _htmlHelper.GetEnumSelectList<CuisineType>();
+                return Page();
+            }
+
+            if (Restaurants.Id > 0)
+            {
+                // The restaurant have a valid ID so update
+                _restaurantData.Update(Restaurants);
+            }
+            else
+            {
+                // The restaurant does not have an ID assigned so add to the data
+                _restaurantData.Add(Restaurants);
+            }
+
             _restaurantData.Commit();
-            return Page();
+            TempData["Message"] = "Restaurant Data Saved";
+            return RedirectToPage("./Detail", new { restaurantId = Restaurants.Id });
+
         }
     }
 }

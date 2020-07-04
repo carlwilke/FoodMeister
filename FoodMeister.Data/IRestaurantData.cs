@@ -11,6 +11,7 @@ namespace FoodMeister.Data
         IEnumerable<Restaurants> GetRestaurantsByName(string name);
         Restaurants GetById(int id);
         Restaurants Update(Restaurants updatedRestaurants);
+        Restaurants Add(Restaurants newRestaurant);
         int Commit();
     }
 
@@ -41,6 +42,14 @@ namespace FoodMeister.Data
         {
             return restaurants.SingleOrDefault(r => r.Id == id);
         }
+
+        public Restaurants Add(Restaurants newRestaurant)
+        {
+            restaurants.Add(newRestaurant);
+            newRestaurant.Id = restaurants.Max(r => r.Id) + 1;
+            return newRestaurant;
+        }
+
 
         // Used for local testing before connecting to database
         public Restaurants Update(Restaurants updatedRestaurants)
