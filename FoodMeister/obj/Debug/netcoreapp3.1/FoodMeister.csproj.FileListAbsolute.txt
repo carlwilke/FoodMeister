@@ -216,3 +216,6 @@ D:\RepoLearn\FoodMeister\FoodMeister\bin\Debug\netcoreapp3.1\runtimes\win-x86\na
 D:\RepoLearn\FoodMeister\FoodMeister\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\RepoLearn\FoodMeister\FoodMeister\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\RepoLearn\FoodMeister\FoodMeister\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Delete.cshtml.g.cs
+D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\_Summary.cshtml.g.cs
+D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\Components\RestaurantCount\Default.cshtml.g.cs
