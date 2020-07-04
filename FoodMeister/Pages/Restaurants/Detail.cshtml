@@ -7,7 +7,7 @@
 
 
 
-<h2>@Model.Restaurants.Name</h2>
+<h2>@Model.Restaurant.Name</h2>
 @*Display message of it was changed or added *@
 @if (Model.Message != null)
 {
@@ -15,15 +15,15 @@
 }
 
 <div>
-    Id: @Model.Restaurants.Id;
+    Id: @Model.Restaurant.Id;
 </div>
 <div>
-    Location: @Model.Restaurants.Location
+    Location: @Model.Restaurant.Location
 </div>
 <div>
-    Cuisine: @Model.Restaurants.Cuisine
+    Cuisine: @Model.Restaurant.Cuisine
 </div>
 
 
-<a asp-page="./List" class="btn btn-dark">All Restaurants</a>
+<a asp-page="./List" class="btn btn-dark">All Restaurant</a>
 

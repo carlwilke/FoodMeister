@@ -5,7 +5,7 @@ using System.Text;
 
 namespace FoodMeister.Core
 {
-    public class Restaurants
+    public class Restaurant
     {
         public int Id { get; set; }
         [Required]

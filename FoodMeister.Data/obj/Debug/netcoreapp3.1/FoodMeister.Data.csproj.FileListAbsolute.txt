@@ -21,3 +21,7 @@ D:\RepoLearn\FoodMeister\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Da
 D:\RepoLearn\FoodMeister\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.csproj.CopyComplete
 D:\RepoLearn\FoodMeister\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.dll
 D:\RepoLearn\FoodMeister\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.pdb
+D:\RepoLearn\FoodMeister\FoodMeister.Data\bin\Debug\netcoreapp3.1\FoodMeister.Data.runtimeconfig.json
+D:\RepoLearn\FoodMeister\FoodMeister.Data\bin\Debug\netcoreapp3.1\FoodMeister.Data.runtimeconfig.dev.json
+D:\RepoLearn\FoodMeister\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.csproj.CoreCompileInputs.cache
+D:\RepoLearn\FoodMeister\FoodMeister.Data\obj\Debug\netcoreapp3.1\FoodMeister.Data.genruntimeconfig.cache

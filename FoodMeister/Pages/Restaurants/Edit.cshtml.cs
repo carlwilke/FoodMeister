@@ -16,7 +16,7 @@ namespace FoodMeister.Pages.Restaurants
         private readonly IHtmlHelper _htmlHelper;
 
         [BindProperty]
-        public Core.Restaurants Restaurants { get; set; }
+        public Core.Restaurant Restaurant { get; set; }
         public IEnumerable<SelectListItem> Cuisines { get; set; }
 
         public EditModel(IRestaurantData restaurantData,
@@ -31,13 +31,13 @@ namespace FoodMeister.Pages.Restaurants
             Cuisines = _htmlHelper.GetEnumSelectList<CuisineType>();
             if (restaurantId.HasValue)
             {
-                Restaurants = _restaurantData.GetById(restaurantId.Value);
+                Restaurant = _restaurantData.GetById(restaurantId.Value);
             }
             else
             {
-                Restaurants = new Core.Restaurants();
+                Restaurant = new Core.Restaurant();
             }
-            if (Restaurants == null)
+            if (Restaurant == null)
             {
                 return RedirectToPage("./NotFound");
             }
@@ -53,20 +53,20 @@ namespace FoodMeister.Pages.Restaurants
                 return Page();
             }
 
-            if (Restaurants.Id > 0)
+            if (Restaurant.Id > 0)
             {
                 // The restaurant have a valid ID so update
-                _restaurantData.Update(Restaurants);
+                _restaurantData.Update(Restaurant);
             }
             else
             {
                 // The restaurant does not have an ID assigned so add to the data
-                _restaurantData.Add(Restaurants);
+                _restaurantData.Add(Restaurant);
             }
 
             _restaurantData.Commit();
             TempData["Message"] = "Restaurant Data Saved";
-            return RedirectToPage("./Detail", new { restaurantId = Restaurants.Id });
+            return RedirectToPage("./Detail", new { restaurantId = Restaurant.Id });
 
         }
     }

@@ -11,7 +11,7 @@ namespace FoodMeister.Pages.Restaurants
     public class DetailModel : PageModel
     {
         private readonly IRestaurantData restaurantData;
-        public Core.Restaurants Restaurants { get; set; }
+        public Core.Restaurant Restaurant { get; set; }
         [TempData]
         public string Message { get; set; }
 
@@ -23,8 +23,8 @@ namespace FoodMeister.Pages.Restaurants
 
         public IActionResult OnGet(int restaurantId)
         {
-            Restaurants = restaurantData.GetById(restaurantId);
-            if (Restaurants == null)
+            Restaurant = restaurantData.GetById(restaurantId);
+            if (Restaurant == null)
             {
                 return RedirectToPage("./NotFound");
             }

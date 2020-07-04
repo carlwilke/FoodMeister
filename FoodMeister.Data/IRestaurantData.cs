@@ -8,29 +8,29 @@ namespace FoodMeister.Data
 {
     public interface IRestaurantData
     {
-        IEnumerable<Restaurants> GetRestaurantsByName(string name);
-        Restaurants GetById(int id);
-        Restaurants Update(Restaurants updatedRestaurants);
-        Restaurants Add(Restaurants newRestaurant);
+        IEnumerable<Restaurant> GetRestaurantsByName(string name);
+        Restaurant GetById(int id);
+        Restaurant Update(Restaurant updatedRestaurant);
+        Restaurant Add(Restaurant newRestaurant);
         int Commit();
     }
 
     public class InMemoryRestaurantData : IRestaurantData
     {
-        private List<Restaurants> restaurants;
+        private List<Restaurant> restaurants;
         public InMemoryRestaurantData()
         {
-            restaurants = new List<Restaurants>()
+            restaurants = new List<Restaurant>()
             {
-                new Restaurants { Id = 1, Name = "Papa Carlos", Location = "Helsingborg", Cuisine = CuisineType.Italian },
-                new Restaurants { Id = 2, Name = "Lucas Curry", Location = "Heraklion", Cuisine = CuisineType.Indian },
-                new Restaurants { Id = 3, Name = "Slobbans Greasy Spoon", Location = "Crawley", Cuisine = CuisineType.None },
-                new Restaurants { Id = 4, Name = "Binge Drinkers", Location = "Manchester", Cuisine = CuisineType.Pub },
-                new Restaurants { Id = 5, Name = "Pedros Fiesta", Location = "Alcapulco", Cuisine = CuisineType.Mexican }
+                new Restaurant { Id = 1, Name = "Papa Carlos", Location = "Helsingborg", Cuisine = CuisineType.Italian },
+                new Restaurant { Id = 2, Name = "Lucas Curry", Location = "Heraklion", Cuisine = CuisineType.Indian },
+                new Restaurant { Id = 3, Name = "Slobbans Greasy Spoon", Location = "Crawley", Cuisine = CuisineType.None },
+                new Restaurant { Id = 4, Name = "Binge Drinkers", Location = "Manchester", Cuisine = CuisineType.Pub },
+                new Restaurant { Id = 5, Name = "Pedros Fiesta", Location = "Alcapulco", Cuisine = CuisineType.Mexican }
             };
         }
 
-        public IEnumerable<Restaurants> GetRestaurantsByName(string name)
+        public IEnumerable<Restaurant> GetRestaurantsByName(string name)
         {
             return from r in restaurants
                    where string.IsNullOrEmpty(name) || r.Name.StartsWith(name)
@@ -38,12 +38,12 @@ namespace FoodMeister.Data
                    select r;
         }
 
-        public Restaurants GetById(int id)
+        public Restaurant GetById(int id)
         {
             return restaurants.SingleOrDefault(r => r.Id == id);
         }
 
-        public Restaurants Add(Restaurants newRestaurant)
+        public Restaurant Add(Restaurant newRestaurant)
         {
             restaurants.Add(newRestaurant);
             newRestaurant.Id = restaurants.Max(r => r.Id) + 1;
@@ -52,14 +52,14 @@ namespace FoodMeister.Data
 
 
         // Used for local testing before connecting to database
-        public Restaurants Update(Restaurants updatedRestaurants)
+        public Restaurant Update(Restaurant updatedRestaurant)
         {
-            var restaurant = restaurants.SingleOrDefault(r => r.Id == updatedRestaurants.Id);
+            var restaurant = restaurants.SingleOrDefault(r => r.Id == updatedRestaurant.Id);
             if (restaurant != null)
             {
-                restaurant.Name = updatedRestaurants.Name;
-                restaurant.Location = updatedRestaurants.Location;
-                restaurant.Cuisine = updatedRestaurants.Cuisine;
+                restaurant.Name = updatedRestaurant.Name;
+                restaurant.Location = updatedRestaurant.Location;
+                restaurant.Cuisine = updatedRestaurant.Cuisine;
             }
 
             return restaurant;

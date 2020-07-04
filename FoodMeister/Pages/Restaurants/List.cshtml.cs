@@ -14,7 +14,7 @@ namespace FoodMeister.Pages.Restaurants
         private readonly IConfiguration config;
         private readonly IRestaurantData _restaurantData;
 
-        public IEnumerable<Core.Restaurants> Restaurants { get; set; }
+        public IEnumerable<Core.Restaurant> Restaurants { get; set; }
         [BindProperty(SupportsGet = true)]
         public string SearchTerm { get; set; }
 
