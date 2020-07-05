@@ -155,8 +155,6 @@ D:\RepoLearn\FoodMeister\FoodMeister\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAn
 D:\RepoLearn\FoodMeister\FoodMeister\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\RepoLearn\FoodMeister\FoodMeister\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\RepoLearn\FoodMeister\FoodMeister\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\FoodMeister.csproj.CoreCompileInputs.cache
-D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\FoodMeister.MvcApplicationPartsAssemblyInfo.cache
 D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Detail.cshtml.g.cs
 D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\NotFound.cshtml.g.cs
 D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Edit.cshtml.g.cs
@@ -219,3 +217,6 @@ D:\RepoLearn\FoodMeister\FoodMeister\bin\Debug\netcoreapp3.1\runtimes\win\lib\ne
 D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Delete.cshtml.g.cs
 D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\_Summary.cshtml.g.cs
 D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\Components\RestaurantCount\Default.cshtml.g.cs
+D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\ClientRestaurants.cshtml.g.cs
+D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\FoodMeister.csproj.CoreCompileInputs.cache
+D:\RepoLearn\FoodMeister\FoodMeister\obj\Debug\netcoreapp3.1\FoodMeister.MvcApplicationPartsAssemblyInfo.cache

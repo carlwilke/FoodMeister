@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using FoodMeister.Data;
 using Microsoft.AspNetCore.Mvc;
-using FoodMeister.Data;
 
 namespace FoodMeister.ViewComponents
 {

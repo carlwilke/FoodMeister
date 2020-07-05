@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cuwin6DAhqQMiDC1XPCRkoInw4U7plVo1hVQ/hORHR4AMqO+HLiB0YWMFcuYhW6xcmffuwrR0VUEnCCqappy2A==",
+  "dgSpecHash": "tWcPWTTJkxb9FA4VTj4AUDp3L7sGe9g4mp2ye3UPDB0LOtXAQSIRh4yhq8zUkogGMMW38hr9++TDAIjiqPo/CQ==",
   "success": true,
   "projectFilePath": "D:\\RepoLearn\\FoodMeister\\FoodMeister\\FoodMeister.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "C:\\Users\\carlw\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\3.1.5\\microsoft.entityframeworkcore.sqlite.core.3.1.5.nupkg.sha512",
     "C:\\Users\\carlw\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.design\\1.1.6\\microsoft.entityframeworkcore.sqlite.design.1.1.6.nupkg.sha512",
     "C:\\Users\\carlw\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.5\\microsoft.entityframeworkcore.sqlserver.3.1.5.nupkg.sha512",
+    "C:\\Users\\carlw\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.5\\microsoft.entityframeworkcore.tools.3.1.5.nupkg.sha512",
     "C:\\Users\\carlw\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.5\\microsoft.extensions.caching.abstractions.3.1.5.nupkg.sha512",
     "C:\\Users\\carlw\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.5\\microsoft.extensions.caching.memory.3.1.5.nupkg.sha512",
     "C:\\Users\\carlw\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.5\\microsoft.extensions.configuration.3.1.5.nupkg.sha512",
